@@ -19,7 +19,7 @@ $(document).ready(function(){
         const inputs = document.querySelectorAll('#otp > *[id]');
         for (let i = 0; i < inputs.length; i++) { 
             if (inputs[i].value!=passwd[i]){
-                error = error+1;
+                error = error;
             }
         }
 
